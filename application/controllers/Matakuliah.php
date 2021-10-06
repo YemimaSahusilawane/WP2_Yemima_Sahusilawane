@@ -1,9 +1,11 @@
 <?php
+defined('BASEPATH') or exit('No direct script access allowed');
+
 class Matakuliah extends CI_Controller
 {
   public function index()
   {
-    $this->load->view('v-form-matkul');
+    $this->load->view('view-form-matakuliah');
   }
   public function cetak()
   {
@@ -18,14 +20,14 @@ class Matakuliah extends CI_Controller
     ]);
     
     if ($this->form_validation->run() != true) {
-      $this->load->view('v-form-matkul');
+      $this->load->view('view-form-matakuliah');
     } else {
     $data = [
       'kode' => $this->input->post('kode'),
       'nama' => $this->input->post('nama'),
       'sks' => $this->input->post('sks')
     ];
-    $this->load->view('v-data-matkul', $data);
+    $this->load->view('view-data-matakuliah', $data);
     }
   }
 }
