@@ -3,8 +3,9 @@
   <title>Form Input Mata Kuliah</title>
 </head>
 <body>
+  <?php echo validation_errors(); ?>
   <center>
-    <form action="<?= base_url('matakuliah/cetak')?>"method="post">
+    <form action="<?= base_url('matakuliah/cetak'); ?>"method="post">
     <table>
       <tr>
         <th colspan="3">

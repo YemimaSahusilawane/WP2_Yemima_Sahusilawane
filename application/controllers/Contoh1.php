@@ -7,5 +7,5 @@ class Contoh1 extends CI_Controller
     echo"Nama saya Yemima Sahusilawane
     Saya tinggal di daerah Kp. Ambon
     Olahraga yang saya sukai adalah Basket dan Renang";
- }
+  }
 }
