@@ -5,7 +5,7 @@
 <body>
   <?php echo validation_errors(); ?>
   <center>
-    <form action="<?= base_url('matakuliah/cetak'); ?>"method="post">
+    <form action="<?= base_url('matakuliah/cetak'); ?>"method="POST">
     <table>
       <tr>
         <th colspan="3">
@@ -45,7 +45,7 @@
       </tr>
       <tr>
         <td colspan="3" align="center">
-          <input type="submit" value="Submit">
+          <input type="submit" value="submit">
         </td>
       </tr>
     </table>
