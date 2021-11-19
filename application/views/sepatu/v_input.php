@@ -91,7 +91,7 @@
             <tr>
               <td>
               <hr>
-              <button type="submit">Submit</button>
+              <button type="submit">Pesan</button>
               </td>
             </tr>
           </table>

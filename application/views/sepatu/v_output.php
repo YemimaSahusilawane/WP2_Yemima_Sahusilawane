@@ -73,7 +73,7 @@
         </td>
       </tr>
       <tr>
-        <th>Merk Sepatu</th>
+        <th>Harga Sepatu</th>
         <td> : </td>
         <td>
           <?= $harga; ?>
