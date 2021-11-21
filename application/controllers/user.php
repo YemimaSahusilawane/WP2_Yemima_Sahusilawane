@@ -7,7 +7,7 @@ class User extends CI_Controller
   {
     parent::__construct();
     $this->load->model(['ModelUser']);
-    // cek_login();
+    cek_login();
   }
   public function index()
   {
@@ -83,4 +83,4 @@ class User extends CI_Controller
     redirect('user');
     }
   }
-}  
+}
