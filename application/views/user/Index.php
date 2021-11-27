@@ -20,7 +20,7 @@
         </div>
         <div class="btn btn-info ml-3 my-3">
           <a href="<?= base_url('user/ubahprofil'); ?>" class="text text-white"><i class="fas fa-user-edit"></i>
-            UbahProfil
+            Ubah Profil
           </a>
         </div>
       </div>
